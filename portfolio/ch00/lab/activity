@@ -1,0 +1,6 @@
+1. For each book in bookshelf
+    a. Remove book and place on the floor
+2. place first book in bookshelf
+3. for each remaining book on bookshelf
+    a. if book becomes before left most book on bookshelf alphabetically, place to the left of said book
+    b. else if book comes after right most book on bookshelf aplhabetically, place tot he left of said book
