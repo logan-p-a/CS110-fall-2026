@@ -4,3 +4,6 @@
 3. for each remaining book on bookshelf
     a. if book becomes before left most book on bookshelf alphabetically, place to the left of said book
     b. else if book comes after right most book on bookshelf aplhabetically, place tot he left of said book
+
+
+    
