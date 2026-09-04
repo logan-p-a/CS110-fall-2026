@@ -1,3 +1,4 @@
+import random
 # Part A
 weeks = 16
 print(weeks, " ", type(weeks))
@@ -15,3 +16,11 @@ print(cost_per_week, " ", type(cost_per_week))
 cost_per_class = cost_per_week/classes_per_week
 print(cost_per_class, " ", type(cost_per_class))
 print("The cost per class is: ", cost_per_class)
+
+#Part B
+nums = [1,2,3,4]
+print(nums, " ", type(nums))
+random_num = random.choice(nums)
+print(random_num, " ", type(random_num))
+print("The randomly selected number is: ", random_num)
+
