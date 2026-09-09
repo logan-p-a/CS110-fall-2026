@@ -1,6 +1,7 @@
 import turtle
 my_turtle = turtle.Turtle()
 window = turtle.Screen()
+window.bgcolor("lightgreen")
 window.title("My First Turtle Program")
 my_turtle.shape("turtle")
 my_turtle.color("blue")
