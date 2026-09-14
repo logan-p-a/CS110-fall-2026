@@ -1,0 +1,7 @@
+scores = [85, 92, 78, 90, 65, 88, 55, 100, 73, 81]
+grading_scale = {"A": [90,100], "B": [80,89], "C": [70,79], "D":[60,69], "F": [0,59]}
+for score in scores:
+    for grade, range in grading_scale.items():
+        if range[0] <= score <= range[1]:
+            print(f"Score: {score} - Grade: {grade}")
+            break
